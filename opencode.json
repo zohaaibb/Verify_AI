@@ -10,8 +10,8 @@
       "type": "local",
       "command": ["npx", "-y", "@adenot/mcp-google-search"],
       "env": {
-        "GOOGLE_API_KEY": "AIzaSyBIDc0eFUaGU-5iGidrg9Jlfi4aewVycic",
-        "GOOGLE_SEARCH_ENGINE_ID": "1234567890abcdef"
+        "GOOGLE_API_KEY": "ADD YOUR OWN KEY",
+        "GOOGLE_SEARCH_ENGINE_ID": "ADD YOUR OWN ID"
       },
       "enabled": true
     }
