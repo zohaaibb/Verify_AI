@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kishwer Rehman - CV</title>
+<style>
+  @page { margin: 0; size: A4; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Arial, sans-serif;
+    background: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #222;
+  }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    background: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+  .header {
+    background: #1a4b6d;
+    color: white;
+    padding: 40px 45px 30px;
+    position: relative;
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: #2e86c1;
+  }
+  .header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .header .subtitle {
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 0.85;
+    margin-bottom: 18px;
+  }
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+    font-size: 14px;
+  }
+  .contact-row span { opacity: 0.9; }
+  .contact-row a { color: white; text-decoration: none; opacity: 0.9; }
+  .contact-row a:hover { opacity: 1; text-decoration: underline; }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0;
+  }
+  .left-col {
+    background: #f0f4f8;
+    padding: 30px 25px 30px 35px;
+  }
+  .right-col {
+    background: white;
+    padding: 30px 35px 30px 25px;
+  }
+
+  .section { margin-bottom: 26px; }
+  .section-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a4b6d;
+    text-transform: uppercase;
+    border-bottom: 2px solid #2e86c1;
+    padding-bottom: 5px;
+    margin-bottom: 14px;
+  }
+
+  .edu-item { margin-bottom: 16px; }
+  .edu-item:last-child { margin-bottom: 0; }
+  .edu-degree {
+    font-weight: 700;
+    font-size: 14px;
+    color: #1a4b6d;
+  }
+  .edu-school {
+    font-size: 13px;
+    color: #444;
+  }
+  .edu-date {
+    font-size: 12px;
+    color: #777;
+    margin-top: 1px;
+  }
+
+  .skill-tag {
+    display: inline-block;
+    background: #d6e4f0;
+    color: #1a4b6d;
+    padding: 4px 12px;
+    border-radius: 14px;
+    font-size: 13px;
+    margin: 0 5px 8px 0;
+    font-weight: 600;
+  }
+
+  .lang-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 4px 0;
+    border-bottom: 1px dashed #ccc;
+  }
+  .lang-item:last-child { border-bottom: none; }
+  .lang-name { font-weight: 600; }
+  .lang-level { color: #555; font-size: 13px; }
+
+  .hobby-item {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 12px 8px 0;
+    padding: 4px 10px;
+    background: #e8edf2;
+    border-radius: 12px;
+  }
+
+  .obj-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+  }
+
+  .skill-cat {
+    font-weight: 700;
+    font-size: 13px;
+    color: #1a4b6d;
+    margin: 8px 0 4px;
+  }
+  .skill-cat:first-of-type { margin-top: 0; }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .page { box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <h1>Kishwer Rehman</h1>
+    <div class="subtitle">Chemist | Analytical &amp; Research Enthusiast</div>
+    <div class="contact-row">
+      <span>kishwer.chemist@gmail.com</span>
+      <span>0371-4946943</span>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="left-col">
+      <div class="section">
+        <div class="section-title">Objective</div>
+        <div class="obj-text">
+          Dedicated and detail-oriented Chemistry graduate seeking to leverage strong analytical, laboratory, and research skills in a professional scientific environment. Eager to contribute to innovative projects while continuously expanding technical expertise and applying academic knowledge to real-world challenges.
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Languages</div>
+        <div class="lang-item">
+          <span class="lang-name">English</span>
+          <span class="lang-level">Professional Proficiency</span>
+        </div>
+        <div class="lang-item">
+          <span class="lang-name">Urdu</span>
+          <span class="lang-level">Native</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Hobbies</div>
+        <span class="hobby-item">Book Reading</span>
+        <span class="hobby-item">Cricket</span>
+        <span class="hobby-item">Poetry</span>
+      </div>
+    </div>
+
+    <div class="right-col">
+      <div class="section">
+        <div class="section-title">Education</div>
+
+        <div class="edu-item">
+          <div class="edu-degree">BS Chemistry</div>
+          <div class="edu-school">GC University Faisalabad</div>
+          <div class="edu-date">2021 &ndash; 2025</div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-degree">FSc (Pre-Medical)</div>
+          <div class="edu-school">Punjab College, Toba Tek Singh</div>
+          <div class="edu-date">2019 &ndash; 2021</div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-degree">Matriculation (Science)</div>
+          <div class="edu-school">Government High School, Pir Mahal</div>
+          <div class="edu-date">2017 &ndash; 2019</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Relevant Skills</div>
+
+        <div class="skill-cat">Laboratory Techniques</div>
+        <span class="skill-tag">Titration &amp; Volumetric Analysis</span>
+        <span class="skill-tag">Spectroscopy (UV-Vis, FTIR)</span>
+        <span class="skill-tag">Chromatography (TLC, Paper)</span>
+        <span class="skill-tag">pH &amp; Conductivity Measurement</span>
+        <span class="skill-tag">Gravimetric Analysis</span>
+
+        <div class="skill-cat">Analytical &amp; Research</div>
+        <span class="skill-tag">Data Analysis &amp; Interpretation</span>
+        <span class="skill-tag">Chemical Synthesis</span>
+        <span class="skill-tag">Laboratory Safety Protocols</span>
+        <span class="skill-tag">Report Writing</span>
+        <span class="skill-tag">Critical Thinking</span>
+
+        <div class="skill-cat">Soft Skills</div>
+        <span class="skill-tag">Communication</span>
+        <span class="skill-tag">Problem Solving</span>
+        <span class="skill-tag">Team Collaboration</span>
+        <span class="skill-tag">Time Management</span>
+        <span class="skill-tag">Attention to Detail</span>
+
+        <div class="skill-cat">Digital Tools</div>
+        <span class="skill-tag">MS Office (Word, Excel, PowerPoint)</span>
+        <span class="skill-tag">ChemDraw (Basic)</span>
+        <span class="skill-tag">Python (Basic)</span>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
